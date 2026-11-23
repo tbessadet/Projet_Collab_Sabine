@@ -1,0 +1,338 @@
+[ 
+    { 
+        "nom": "Tomate", 
+        "nom_scientifique": "Solanum lycopersicum", 
+        "famille": "Solanaceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "tomate.jpg" 
+    },
+    { 
+        "nom": "Tournesol", 
+        "nom_scientifique": "Helianthus annuus", 
+        "famille": "Asteraceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil"], 
+        "photo": "tournesol.jpg" 
+    },
+    { 
+        "nom": "Haricot", 
+        "nom_scientifique": "Phaseolus vulgaris", 
+        "famille": "Fabaceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage moyen"], 
+        "photo": "haricot.jpg" 
+    },
+    { 
+        "nom": "Pois", 
+        "nom_scientifique": "Pisum sativum", 
+        "famille": "Fabaceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage moyen"], 
+        "photo": "pois.jpg" 
+    },
+    { 
+        "nom": "Lavande", 
+        "nom_scientifique": "Lavandula angustifolia", 
+        "famille": "Lamiaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage faible"], 
+        "photo": "lavande.jpg" 
+    },
+    { 
+        "nom": "Menthe", 
+        "nom_scientifique": "Mentha sp.", 
+        "famille": "Lamiaceae", 
+        "cycle": "vivace", 
+        "besoins": ["mi ombre", "arrosage frequent"], 
+        "photo": "aucune_photo.png" 
+    },
+    { 
+        "nom": "Chene", 
+        "nom_scientifique": "Quercus robur", 
+        "famille": "Fagaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil"], 
+        "photo": "chene.jpg" 
+    },
+    { 
+        "nom": "Rose", 
+        "nom_scientifique": "Rosa gallica", 
+        "famille": "Rosaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage moyen"], 
+        "photo": "rose.jpg" 
+    },
+    { 
+        "nom": "Pissenlit", 
+        "nom_scientifique": "Taraxacum officinale", 
+        "famille": "Asteraceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil"], 
+        "photo": "pissenlit.jpg" 
+    },
+    { 
+        "nom": "Basilic", 
+        "nom_scientifique": "Ocimum basilicum", 
+        "famille": "Lamiaceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage frequent"], 
+        "photo": "basilic.jpg" 
+    },
+    { 
+        "nom": "Romarin", 
+        "nom_scientifique": "Salvia rosmarinus", 
+        "famille": "Lamiaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage faible"], 
+        "photo": "romarin.jpg" 
+    },
+    { 
+        "nom": "Carotte", 
+        "nom_scientifique": "Daucus carota", 
+        "famille": "Apiaceae", 
+        "cycle": "bisannuel", 
+        "besoins": ["soleil", "arrosage moyen"], 
+        "photo": "carotte.jpg" 
+    },
+    { 
+        "nom": "Ortie", 
+        "nom_scientifique": "Urtica dioica", 
+        "famille": "Urticaceae", 
+        "cycle": "vivace", 
+        "besoins": ["mi ombre"], 
+        "photo": "ortie.jpg" 
+    },
+    { 
+        "nom": "Thym", 
+        "nom_scientifique": "Thymus vulgaris", 
+        "famille": "Lamiaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage faible"], 
+        "photo": "thym.jpg" 
+    },
+    { 
+        "nom": "Sauge", 
+        "nom_scientifique": "Salvia officinalis", 
+        "famille": "Lamiaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage faible"], 
+        "photo": "sauge.jpg" 
+    },
+    { 
+        "nom": "Camomille", 
+        "nom_scientifique": "Matricaria chamomilla", 
+        "famille": "Asteraceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "camomille.jpg" 
+    },
+    { 
+        "nom": "Persil", 
+        "nom_scientifique": "Petroselinum crispum", 
+        "famille": "Apiaceae", 
+        "cycle": "bisannuel", 
+        "besoins": ["mi ombre", "arrosage moyen"], 
+        "photo": "persil.jpg" 
+    },
+    { 
+        "nom": "Epinard", 
+        "nom_scientifique": "Spinacia oleracea", 
+        "famille": "Amaranthaceae", 
+        "cycle": "annuel", 
+        "besoins": ["mi ombre", "arrosage regulier"], 
+        "photo": "epinard.jpg" 
+    },
+    { 
+        "nom": "Coquelicot", 
+        "nom_scientifique": "Papaver rhoeas", 
+        "famille": "Papaveraceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil"], 
+        "photo": "coquelicot.jpg" 
+    },
+    { 
+        "nom": "Marguerite", 
+        "nom_scientifique": "Leucanthemum vulgare", 
+        "famille": "Asteraceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage moyen"], 
+        "photo": "marguerite.jpg" 
+    },
+    { 
+        "nom": "Bleuet", 
+        "nom_scientifique": "Centaurea cyanus", 
+        "famille": "Asteraceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil"], 
+        "photo": "bleuet.jpg" 
+    },
+    { 
+        "nom": "Framboisier", 
+        "nom_scientifique": "Rubus idaeus", 
+        "famille": "Rosaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "framboisier.jpg" 
+    },
+    { 
+        "nom": "Artichaut", 
+        "nom_scientifique": "Cynara cardunculus", 
+        "famille": "Asteraceae", 
+        "cycle": "bisannuel", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "artichaut.jpg" 
+    },
+    { 
+        "nom": "Endive", 
+        "nom_scientifique": "Cichorium intybus", 
+        "famille": "Asteraceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "endive.jpg" 
+    },
+    { 
+        "nom": "Topinambour", 
+        "nom_scientifique": "Helianthus tuberosus", 
+        "famille": "Asteraceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage moyen"], 
+        "photo": "topinambour.jpg" 
+    },
+    { 
+        "nom": "Arnica", 
+        "nom_scientifique": "Arnica montana", 
+        "famille": "Asteraceae", 
+        "cycle": "vivace", 
+        "besoins": ["mi ombre", "arrosage moyen"], 
+        "photo": "arnica.jpg" 
+    },
+    { 
+        "nom": "Souci", 
+        "nom_scientifique": "Calendula officinalis", 
+        "famille": "Asteraceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "souci.jpg" 
+    },
+    { 
+        "nom": "Luzerne", 
+        "nom_scientifique": "Medicago sativa", 
+        "famille": "Fabaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage faible"], 
+        "photo": "luzerne.jpg" 
+    },
+    { 
+        "nom": "Trefle", 
+        "nom_scientifique": "Trifolium repens", 
+        "famille": "Fabaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage moyen"], 
+        "photo": "trefle.jpg" 
+    },
+    { 
+        "nom": "Gesse", 
+        "nom_scientifique": "Lathyrus sativus", 
+        "famille": "Fabaceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage moyen"], 
+        "photo": "gesse.jpg" 
+    },
+    { 
+        "nom": "Pois chiche", 
+        "nom_scientifique": "Cicer arietinum", 
+        "famille": "Fabaceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage faible"], 
+        "photo": "pois_chiche.jpg" 
+    },
+    { 
+        "nom": "Pommier", 
+        "nom_scientifique": "Malus domestica", 
+        "famille": "Rosaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "pommier.jpg" 
+    },
+    { 
+        "nom": "Cerisier", 
+        "nom_scientifique": "Prunus avium", 
+        "famille": "Rosaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "cerisier.jpg" 
+    },
+    { 
+        "nom": "Prunier", 
+        "nom_scientifique": "Prunus domestica", 
+        "famille": "Rosaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage moyen"], 
+        "photo": "prunier.jpg" 
+    },
+    { 
+        "nom": "Fraisier", 
+        "nom_scientifique": "Fragaria vesca", 
+        "famille": "Rosaceae", 
+        "cycle": "vivace", 
+        "besoins": ["mi ombre", "arrosage regulier"], 
+        "photo": "fraisier.jpg" 
+    },
+    { 
+        "nom": "Estragon", 
+        "nom_scientifique": "Artemisia dracunculus", 
+        "famille": "Asteraceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage faible"], 
+        "photo": "estragon.jpg" 
+    },
+    { 
+        "nom": "Melisse", 
+        "nom_scientifique": "Melissa officinalis", 
+        "famille": "Lamiaceae", 
+        "cycle": "vivace", 
+        "besoins": ["mi ombre", "arrosage moyen"], 
+        "photo": "melisse.jpg" 
+    },
+    { 
+        "nom": "Origano", 
+        "nom_scientifique": "Origanum vulgare", 
+        "famille": "Lamiaceae", 
+        "cycle": "vivace", 
+        "besoins": ["soleil", "arrosage faible"], 
+        "photo": "origano.jpg" 
+    },
+    { 
+        "nom": "Mais", 
+        "nom_scientifique": "Zea mays", 
+        "famille": "Poaceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "mais.jpg" 
+    },
+    { 
+        "nom": "Courgette", 
+        "nom_scientifique": "Cucurbita pepo", 
+        "famille": "Cucurbitaceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "courgette.jpg" 
+    },
+    { 
+        "nom": "Aubergine", 
+        "nom_scientifique": "Solanum melongena", 
+        "famille": "Solanaceae", 
+        "cycle": "annuel", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "aubergine.jpg" 
+    },
+    { 
+        "nom": "Chou", 
+        "nom_scientifique": "Brassica oleracea", 
+        "famille": "Brassicaceae", 
+        "cycle": "bisannuel", 
+        "besoins": ["soleil", "arrosage regulier"], 
+        "photo": "chou.jpg" 
+    }
+]

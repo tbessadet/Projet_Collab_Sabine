@@ -1,0 +1,418 @@
+@prefix herb: <http://example.org/herbier#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+herb:Arnica a herb:Plante ;
+    rdfs:label "Arnica" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:mi_ombre ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Asteraceae ;
+    herb:nomScientifique "Arnica montana" ;
+    herb:photo "arnica.jpg" .
+
+herb:Artichaut a herb:Plante ;
+    rdfs:label "Artichaut" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:bisannuel ;
+    herb:appartientA herb:Asteraceae ;
+    herb:nomScientifique "Cynara cardunculus" ;
+    herb:photo "artichaut.jpg" .
+
+herb:Aubergine a herb:Plante ;
+    rdfs:label "Aubergine" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Solanaceae ;
+    herb:nomScientifique "Solanum melongena" ;
+    herb:photo "aubergine.jpg" .
+
+herb:Basilic a herb:Plante ;
+    rdfs:label "Basilic" ;
+    herb:aPourBesoin herb:arrosage_frequent,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Lamiaceae ;
+    herb:nomScientifique "Ocimum basilicum" ;
+    herb:photo "basilic.jpg" .
+
+herb:Bleuet a herb:Plante ;
+    rdfs:label "Bleuet" ;
+    herb:aPourBesoin herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Asteraceae ;
+    herb:nomScientifique "Centaurea cyanus" ;
+    herb:photo "bleuet.jpg" .
+
+herb:Camomille a herb:Plante ;
+    rdfs:label "Camomille" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Asteraceae ;
+    herb:nomScientifique "Matricaria chamomilla" ;
+    herb:photo "camomille.jpg" .
+
+herb:Carotte a herb:Plante ;
+    rdfs:label "Carotte" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:soleil ;
+    herb:aPourCycle herb:bisannuel ;
+    herb:appartientA herb:Apiaceae ;
+    herb:nomScientifique "Daucus carota" ;
+    herb:photo "carotte.jpg" .
+
+herb:Cerisier a herb:Plante ;
+    rdfs:label "Cerisier" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Rosaceae ;
+    herb:nomScientifique "Prunus avium" ;
+    herb:photo "cerisier.jpg" .
+
+herb:Chene a herb:Plante ;
+    rdfs:label "Chene" ;
+    herb:aPourBesoin herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Fagaceae ;
+    herb:nomScientifique "Quercus robur" ;
+    herb:photo "chene.jpg" .
+
+herb:Chou a herb:Plante ;
+    rdfs:label "Chou" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:bisannuel ;
+    herb:appartientA herb:Brassicaceae ;
+    herb:nomScientifique "Brassica oleracea" ;
+    herb:photo "chou.jpg" .
+
+herb:Coquelicot a herb:Plante ;
+    rdfs:label "Coquelicot" ;
+    herb:aPourBesoin herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Papaveraceae ;
+    herb:nomScientifique "Papaver rhoeas" ;
+    herb:photo "coquelicot.jpg" .
+
+herb:Courgette a herb:Plante ;
+    rdfs:label "Courgette" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Cucurbitaceae ;
+    herb:nomScientifique "Cucurbita pepo" ;
+    herb:photo "courgette.jpg" .
+
+herb:Endive a herb:Plante ;
+    rdfs:label "Endive" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Asteraceae ;
+    herb:nomScientifique "Cichorium intybus" ;
+    herb:photo "endive.jpg" .
+
+herb:Epinard a herb:Plante ;
+    rdfs:label "Epinard" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:mi_ombre ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Amaranthaceae ;
+    herb:nomScientifique "Spinacia oleracea" ;
+    herb:photo "epinard.jpg" .
+
+herb:Estragon a herb:Plante ;
+    rdfs:label "Estragon" ;
+    herb:aPourBesoin herb:arrosage_faible,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Asteraceae ;
+    herb:nomScientifique "Artemisia dracunculus" ;
+    herb:photo "estragon.jpg" .
+
+herb:Fraisier a herb:Plante ;
+    rdfs:label "Fraisier" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:mi_ombre ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Rosaceae ;
+    herb:nomScientifique "Fragaria vesca" ;
+    herb:photo "fraisier.jpg" .
+
+herb:Framboisier a herb:Plante ;
+    rdfs:label "Framboisier" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Rosaceae ;
+    herb:nomScientifique "Rubus idaeus" ;
+    herb:photo "framboisier.jpg" .
+
+herb:Gesse a herb:Plante ;
+    rdfs:label "Gesse" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Fabaceae ;
+    herb:nomScientifique "Lathyrus sativus" ;
+    herb:photo "gesse.jpg" .
+
+herb:Haricot a herb:Plante ;
+    rdfs:label "Haricot" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Fabaceae ;
+    herb:nomScientifique "Phaseolus vulgaris" ;
+    herb:photo "haricot.jpg" .
+
+herb:Lavande a herb:Plante ;
+    rdfs:label "Lavande" ;
+    herb:aPourBesoin herb:arrosage_faible,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Lamiaceae ;
+    herb:nomScientifique "Lavandula angustifolia" ;
+    herb:photo "lavande.jpg" .
+
+herb:Luzerne a herb:Plante ;
+    rdfs:label "Luzerne" ;
+    herb:aPourBesoin herb:arrosage_faible,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Fabaceae ;
+    herb:nomScientifique "Medicago sativa" ;
+    herb:photo "luzerne.jpg" .
+
+herb:Mais a herb:Plante ;
+    rdfs:label "Mais" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Poaceae ;
+    herb:nomScientifique "Zea mays" ;
+    herb:photo "mais.jpg" .
+
+herb:Marguerite a herb:Plante ;
+    rdfs:label "Marguerite" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Asteraceae ;
+    herb:nomScientifique "Leucanthemum vulgare" ;
+    herb:photo "marguerite.jpg" .
+
+herb:Melisse a herb:Plante ;
+    rdfs:label "Melisse" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:mi_ombre ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Lamiaceae ;
+    herb:nomScientifique "Melissa officinalis" ;
+    herb:photo "melisse.jpg" .
+
+herb:Menthe a herb:Plante ;
+    rdfs:label "Menthe" ;
+    herb:aPourBesoin herb:arrosage_frequent,
+        herb:mi_ombre ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Lamiaceae ;
+    herb:nomScientifique "Mentha sp." .
+
+herb:Origano a herb:Plante ;
+    rdfs:label "Origano" ;
+    herb:aPourBesoin herb:arrosage_faible,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Lamiaceae ;
+    herb:nomScientifique "Origanum vulgare" ;
+    herb:photo "origano.jpg" .
+
+herb:Ortie a herb:Plante ;
+    rdfs:label "Ortie" ;
+    herb:aPourBesoin herb:mi_ombre ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Urticaceae ;
+    herb:nomScientifique "Urtica dioica" ;
+    herb:photo "ortie.jpg" .
+
+herb:Persil a herb:Plante ;
+    rdfs:label "Persil" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:mi_ombre ;
+    herb:aPourCycle herb:bisannuel ;
+    herb:appartientA herb:Apiaceae ;
+    herb:nomScientifique "Petroselinum crispum" ;
+    herb:photo "persil.jpg" .
+
+herb:Pissenlit a herb:Plante ;
+    rdfs:label "Pissenlit" ;
+    herb:aPourBesoin herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Asteraceae ;
+    herb:nomScientifique "Taraxacum officinale" ;
+    herb:photo "pissenlit.jpg" .
+
+herb:Pois a herb:Plante ;
+    rdfs:label "Pois" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Fabaceae ;
+    herb:nomScientifique "Pisum sativum" ;
+    herb:photo "pois.jpg" .
+
+herb:Pois_chiche a herb:Plante ;
+    rdfs:label "Pois chiche" ;
+    herb:aPourBesoin herb:arrosage_faible,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Fabaceae ;
+    herb:nomScientifique "Cicer arietinum" ;
+    herb:photo "pois_chiche.jpg" .
+
+herb:Pommier a herb:Plante ;
+    rdfs:label "Pommier" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Rosaceae ;
+    herb:nomScientifique "Malus domestica" ;
+    herb:photo "pommier.jpg" .
+
+herb:Prunier a herb:Plante ;
+    rdfs:label "Prunier" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Rosaceae ;
+    herb:nomScientifique "Prunus domestica" ;
+    herb:photo "prunier.jpg" .
+
+herb:Romarin a herb:Plante ;
+    rdfs:label "Romarin" ;
+    herb:aPourBesoin herb:arrosage_faible,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Lamiaceae ;
+    herb:nomScientifique "Salvia rosmarinus" ;
+    herb:photo "romarin.jpg" .
+
+herb:Rose a herb:Plante ;
+    rdfs:label "Rose" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Rosaceae ;
+    herb:nomScientifique "Rosa gallica" ;
+    herb:photo "rose.jpg" .
+
+herb:Sauge a herb:Plante ;
+    rdfs:label "Sauge" ;
+    herb:aPourBesoin herb:arrosage_faible,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Lamiaceae ;
+    herb:nomScientifique "Salvia officinalis" ;
+    herb:photo "sauge.jpg" .
+
+herb:Souci a herb:Plante ;
+    rdfs:label "Souci" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Asteraceae ;
+    herb:nomScientifique "Calendula officinalis" ;
+    herb:photo "souci.jpg" .
+
+herb:Thym a herb:Plante ;
+    rdfs:label "Thym" ;
+    herb:aPourBesoin herb:arrosage_faible,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Lamiaceae ;
+    herb:nomScientifique "Thymus vulgaris" ;
+    herb:photo "thym.jpg" .
+
+herb:Tomate a herb:Plante ;
+    rdfs:label "Tomate" ;
+    herb:aPourBesoin herb:arrosage_regulier,
+        herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Solanaceae ;
+    herb:nomScientifique "Solanum lycopersicum" ;
+    herb:photo "tomate.jpg" .
+
+herb:Topinambour a herb:Plante ;
+    rdfs:label "Topinambour" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Asteraceae ;
+    herb:nomScientifique "Helianthus tuberosus" ;
+    herb:photo "topinambour.jpg" .
+
+herb:Tournesol a herb:Plante ;
+    rdfs:label "Tournesol" ;
+    herb:aPourBesoin herb:soleil ;
+    herb:aPourCycle herb:annuel ;
+    herb:appartientA herb:Asteraceae ;
+    herb:nomScientifique "Helianthus annuus" ;
+    herb:photo "tournesol.jpg" .
+
+herb:Trefle a herb:Plante ;
+    rdfs:label "Trefle" ;
+    herb:aPourBesoin herb:arrosage_moyen,
+        herb:soleil ;
+    herb:aPourCycle herb:vivace ;
+    herb:appartientA herb:Fabaceae ;
+    herb:nomScientifique "Trifolium repens" ;
+    herb:photo "trefle.jpg" .
+
+herb:Amaranthaceae a herb:Famille .
+
+herb:Brassicaceae a herb:Famille .
+
+herb:Cucurbitaceae a herb:Famille .
+
+herb:Fagaceae a herb:Famille .
+
+herb:Papaveraceae a herb:Famille .
+
+herb:Poaceae a herb:Famille .
+
+herb:Urticaceae a herb:Famille .
+
+herb:Apiaceae a herb:Famille .
+
+herb:Solanaceae a herb:Famille .
+
+herb:arrosage_frequent a herb:Besoin .
+
+herb:bisannuel a herb:Cycle .
+
+herb:Fabaceae a herb:Famille .
+
+herb:Rosaceae a herb:Famille .
+
+herb:mi_ombre a herb:Besoin .
+
+herb:Lamiaceae a herb:Famille .
+
+herb:arrosage_faible a herb:Besoin .
+
+herb:Asteraceae a herb:Famille .
+
+herb:arrosage_moyen a herb:Besoin .
+
+herb:arrosage_regulier a herb:Besoin .
+
+herb:annuel a herb:Cycle .
+
+herb:vivace a herb:Cycle .
+
+herb:soleil a herb:Besoin .
+
